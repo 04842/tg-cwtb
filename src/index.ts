@@ -1,4 +1,4 @@
-import TelegramBot, { TelegramExecutionContext } from '@04842/tg-cf';
+import TelegramBot, { TelegramExecutionContext } from '@codebam/cf-workers-telegram-bot';
 
 interface Environment {
 	SECRET_TELEGRAM_API_TOKEN: string;
